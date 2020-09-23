@@ -1,0 +1,110 @@
+*{
+    margin: 0px auto;
+    align-content: center;
+    }
+    #wrapper{
+        background-color: darkslategray;
+        width: 900px;
+    }
+    #wrapper:hover{
+        height: 1400px;
+        width: 980px;
+        transition: width 2s, height 3s;
+    }
+    .readybox{
+        width: 300px;
+        height: 42px;
+        background-color: red;
+        transition: width 2s, height 3s;
+        align-content: center;
+        align-items: center;
+    }
+    #ready{
+        margin-left: 125px;
+    
+    }
+    #begin{
+        display: none;
+        width: fit-content;
+        background: red;
+        height: 100px;
+        transition: width 2s, height 3s;
+        padding-bottom: -30px;
+    }
+    .readybox:hover {
+        width: 300px;
+        height: 100px;
+    
+    }
+    
+    #over{
+        display: none;
+        background: peachpuff;
+    }
+    #addBefore{
+        color: gray;
+        height: 300px;
+        width:300px;
+        display: none;
+    
+    }
+    #addBTextB{
+        display: none;
+        color: green;
+        background: yellow;
+        transition: 2s;
+    }
+    #text1{
+        background-color: whitesmoke;
+        width: 200px;
+        height: 400px;
+        display:none;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #addClass{
+        background: darkviolet;
+        display:none;
+    }
+    
+    #toggle{
+    background: darkslategray;
+    color: wheat;
+    display: none;
+    
+    }
+    #rules{
+        border: 1px solid red;
+    }
+    #rules_quit{
+    background: darkslategray;
+    color: wheat;
+    display: block;
+    width: 200px;
+    height: 50px;
+        align-content: center;
+        align-self: center;
+    }
+    .highlight{
+        background: pink;
+        font-size: 42px;
+        color: purple;
+    }
+    #slideToggle{
+        display: none;
+        background-color: seagreen;
+    }
+    #append{
+        display: none;
+        background-color: seagreen;
+    }
+    #html{
+        display: none;
+        background-color: whitesmoke;
+    }
+    #done{
+        display: none;
+        background-color: pink;
+    }
+    
